@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "ESNext",
+    "module": "nodenext",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "types": [
+      "bun"
+    ],
+    "moduleResolution": "nodenext",
+    "strict": true,
+  },
+  "exclude": ["dist"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "supply-chain",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "supply-chain": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/bun": "latest"
+  }
+}
